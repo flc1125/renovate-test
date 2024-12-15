@@ -7,9 +7,6 @@
   "ignoreDeps": [ "go.opentelemetry.io/contrib/instrgen" ],
   "labels": ["dependencies"],
   "separateMajorMinor": true,
-  "constraints": {
-    "go": "1.22"
-  },
   "postUpdateOptions" : [
     "gomodTidy"
   ],
