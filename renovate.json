@@ -20,14 +20,14 @@
       "enabled": true
     },
     {
-      "matchFileNames": ["sub1.21.0/go.mod"],
+      "matchFileNames": ["sub1.21.0/**"],
       "constraints": {
         "go": "1.21"
       },
       "enabled": true
     },
     {
-      "matchFileNames": ["sub1.22.7/go.mod"],
+      "matchFileNames": ["sub1.22.7/**"],
       "constraints": {
         "go": "1.23"
       },
