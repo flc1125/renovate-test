@@ -2,7 +2,10 @@ module renovatesubtest
 
 go 1.22.7
 
-require go.opentelemetry.io/otel v1.32.0
+require (
+	entgo.io/ent v0.14.0
+	go.opentelemetry.io/otel v1.32.0
+)
 
 require (
 	github.com/go-logr/logr v1.4.2 // indirect
