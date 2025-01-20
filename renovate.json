@@ -22,14 +22,14 @@
     {
       "matchFileNames": ["sub1.21.0/**"],
       "constraints": {
-        "go": "1.21"
+        "golang": "1.21"
       },
       "enabled": true
     },
     {
       "matchFileNames": ["sub1.22.7/**"],
       "constraints": {
-        "go": "1.23"
+        "golang": "1.23"
       },
       "enabled": true
     },
