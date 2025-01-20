@@ -20,16 +20,18 @@
       "enabled": true
     },
     {
-      "matchFileNames": ["sub1.21.0/**"],
+      "matchPaths": ["sub1.21.0/"],
+      "matchManagers": ["gomod"],
       "constraints": {
-        "golang": "1.21"
+        "go": "1.21"
       },
       "enabled": true
     },
     {
-      "matchFileNames": ["sub1.22.7/**"],
+      "matchPaths": ["sub1.22.7/"],
+      "matchManagers": ["gomod"],
       "constraints": {
-        "golang": "1.23"
+        "go": "1.23"
       },
       "enabled": true
     },
