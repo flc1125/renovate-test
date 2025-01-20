@@ -17,16 +17,12 @@
       "enabled": true
     },
     {
-      "matchPaths": ["sub1.21.0/"],
-      "matchManagers": ["gomod"],
-      "constraints": {
-        "go": "1.21"
-      },
+      "matchFileNames": ["sub1.21.0/go.mod"],
+      "allowedVersions": ["1.21"],
       "enabled": true
     },
     {
-      "matchPaths": ["sub1.22.7/"],
-      "matchManagers": ["gomod"],
+      "matchFileNames": ["sub1.22.7/go.mod"],
       "constraints": {
         "go": ">=1.22.7"
       },
