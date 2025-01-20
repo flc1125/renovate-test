@@ -7,6 +7,9 @@
   "ignoreDeps": [ "go.opentelemetry.io/contrib/instrgen" ],
   "labels": ["dependencies"],
   "separateMajorMinor": true,
+  "constraints": {
+    "go": "1.22"
+  },
   "postUpdateOptions" : [
     "gomodTidy"
   ],
@@ -14,6 +17,20 @@
     {
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
+      "enabled": true
+    },
+    {
+      "matchFileNames": ["sub1.21.0/go.mod"],
+      "constraints": {
+        "go": "1.21"
+      },
+      "enabled": true
+    },
+    {
+      "matchFileNames": ["sub1.22.7/go.mod"],
+      "constraints": {
+        "go": "1.23"
+      },
       "enabled": true
     },
     {
