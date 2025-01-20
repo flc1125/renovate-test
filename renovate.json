@@ -34,14 +34,6 @@
       "enabled": true
     },
     {
-      "matchPackageNames": ["google.golang.org/genproto/googleapis/**"],
-      "groupName": "googleapis"
-    },
-    {
-      "matchPackageNames": ["golang.org/x/**"],
-      "groupName": "golang.org/x"
-    },
-    {
       "matchPackageNames": ["go.opentelemetry.io/otel/**"],
       "enabled": false
     }
