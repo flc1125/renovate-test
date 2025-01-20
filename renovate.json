@@ -3,9 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "ignorePaths": [],
-  "ignoreDeps": [ "go.opentelemetry.io/contrib/instrgen" ],
-  "labels": ["dependencies"],
   "separateMajorMinor": true,
   "constraints": {
     "go": "1.22.0"
@@ -31,7 +28,7 @@
       "matchPaths": ["sub1.22.7/"],
       "matchManagers": ["gomod"],
       "constraints": {
-        "go": "1.23"
+        "go": ">=1.22.7"
       },
       "enabled": true
     },
