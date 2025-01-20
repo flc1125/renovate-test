@@ -8,7 +8,7 @@
   "labels": ["dependencies"],
   "separateMajorMinor": true,
   "constraints": {
-    "go": "1.22"
+    "go": "1.22.0"
   },
   "postUpdateOptions" : [
     "gomodTidy"
