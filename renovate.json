@@ -19,8 +19,11 @@
       "allowedVersions": "<=1.23.4"
     },
     {
-      "matchPackageNames": ["go.opentelemetry.io/otel/**"],
-      "enabled": false
+      "matchPaths": ["sub1.21.0/"],
+      "matchPackageNames": [
+        "go"
+      ],
+      "allowedVersions": "<=1.21.0"
     }
   ]
 }
