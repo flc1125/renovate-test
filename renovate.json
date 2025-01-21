@@ -12,21 +12,11 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["gomod"],
-      "matchDepTypes": ["indirect"],
-      "enabled": true
-    },
-    {
-      "matchFileNames": ["sub1.21.0/go.mod"],
-      "allowedVersions": ["1.21"],
-      "enabled": true
-    },
-    {
-      "matchFileNames": ["sub1.22.7/go.mod"],
-      "constraints": {
-        "go": ">=1.22.7"
-      },
-      "enabled": true
+      "matchPaths": ["sub1.22.7/"],
+      "matchPackageNames": [
+        "go"
+      ],
+      "allowedVersions": "<=1.23.4"
     },
     {
       "matchPackageNames": ["go.opentelemetry.io/otel/**"],
