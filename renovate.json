@@ -17,14 +17,14 @@
       "enabled": true
     },
     {
-      "matchPaths": ["sub1.22.7/"],
+      "matchFileNames": ["sub1.22.7/go.mod"],
       "matchPackageNames": [
         "go"
       ],
       "allowedVersions": "<=1.23.4"
     },
     {
-      "matchPaths": ["sub1.21.0/"],
+      "matchFileNames": ["sub1.21.0/go.mod"],
       "matchPackageNames": [
         "go"
       ],
