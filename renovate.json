@@ -17,15 +17,17 @@
       "enabled": true
     },
     {
+      "matchManagers": ["gomod"],
       "matchPaths": ["./sub1.22.7/**"],
       "constraints": {
         "go": "1.22.7"
       }
     },
     {
+      "matchManagers": ["gomod"],
       "matchPaths": ["./sub1.21.0/**"],
       "constraints": {
-        "go": "^1.24.0"
+        "go": ">=1.24.0"
       }
     }
   ]
