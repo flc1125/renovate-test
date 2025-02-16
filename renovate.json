@@ -17,18 +17,16 @@
       "enabled": true
     },
     {
-      "matchFileNames": ["sub1.22.7/go.mod"],
-      "matchPackageNames": [
-        "go"
-      ],
-      "allowedVersions": "<=1.23.5"
+      "matchPaths": ["./sub1.22.7/**"],
+      "constraints": {
+        "go": "^1.23.0"
+      }
     },
     {
-      "matchFileNames": ["sub1.21.0/go.mod"],
-      "matchPackageNames": [
-        "go"
-      ],
-      "allowedVersions": "<=1.21.0"
+      "matchPaths": ["./sub1.21.0/**"],
+      "constraints": {
+        "go": "^1.24.0"
+      }
     }
   ]
 }
