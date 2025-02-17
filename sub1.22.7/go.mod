@@ -3,7 +3,7 @@ module renovatesubtest
 go 1.22.7
 
 require (
-	entgo.io/ent v0.14.0
+	entgo.io/ent v0.14.2
 	go.opentelemetry.io/otel v1.32.0
 )
 
